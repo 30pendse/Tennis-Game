@@ -1,0 +1,18 @@
+#Racket{
+    width: 100px;
+    height: 160px;
+}
+#TennisBall{
+    padding-left: 500;
+    padding-bottom: 400;
+    width: 100px;
+    height: 70px;
+}
+#TennisCourt{
+    width: 500px;
+    height: 200px;
+}
+#TBforPlaying{
+    width  : 100px;
+    height : 100px;
+}

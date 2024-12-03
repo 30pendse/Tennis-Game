@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <canvas id ="tenniscanvas" width = '1300px' height = '500px'>
+
+        </canvas>
+        <div id = 'IntroText'> Hello. Welcome to Tennis Fighter. New user, please enter your username/password below. You need at least 8 characters with one number, one capital, and one symbol to sign in.
+        </div>
+        <div id= "BeforeGame">
+You're back! The player with the red racket will use the "w" key for moving up while using the "s" key for moving down. The blue player will be using arrow keys to move. Click the spacebar to begin playing.
+        </div>
+        <form>
+            <label id="Yewsername" for="username">Username:</label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <label id="Pantsword" for="password">Password:</label><br>
+            <input type="text" id="pword" name="pword">
+            <button id="startbutton">
+              Sign In
+            </button>
+          </form>
+
+    <img id="TennisBall" src="StartImage.png"> 
+    </img>
+    <img id="Racket" src="TenRack.png">
+    </img>
+    <img id="TennisCourt" src="TennisCourt.png">
+    </img>
+    <img id="TBforPlaying" src="ActualTennisBall.png">
+    </img>
+     <img id = "RedRacket" src = "OpponentRacket.png">
+    </img>
+
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
